@@ -1,6 +1,8 @@
 # empad
 Employee Self-Service Active Directory data collection tool
 
+The purpose of this application is to allow organisations that have grown large to collect and maintain a centralised uniform data-set of their employees, including locations, which allows the organisation to keep up to date information whilst potentially being able to use the data for statistical analysis.
+
 
 ## configuration
 In future version I would like to include an installer however there is no demand for such a thing at the moment as it was created to use in-house by myself. Instead, on the off-chance anyone would like to use it I will include configuration notes.
