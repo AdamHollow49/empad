@@ -38,7 +38,7 @@ Key variable must be created using cryptography - https://github.com/pyca/crypto
  ## Explanation
  This application connects to the active directory of your organisation, designed to be run on sign in, automatically logs in using the service account and targets the currently logged in user. At this point the user has the options to change a certain number of specified attributes. Employee Number, Login ID, Personal E-mail (optional), Location etc..
  
- This then sends the relevant information to active directory and any information that would be incorrect to store in that manner is encrypted to a file as a comma separated list. This can be decrypted using the decrpytIT script however this is designed to be only used by someone with clearance to do so. The idea of collecting this information is to store it in HR Databases, designed for holding personal data.
+ This then sends the relevant information to active directory and any information that would be incorrect to store in that manner is encrypted to a file as a comma separated list. This can be decrypted using the decryptIT script however this is designed to be only used by someone with clearance to do so. The idea of collecting this information is to store it in HR Databases, designed for holding personal data.
  
  If an employee refuses to fill out the form ( there is a small pop-up box that requests the employee's attention to fill out a form, they may say no ) then it is logged.
  
