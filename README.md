@@ -12,10 +12,9 @@ You must modify the following code sections:
 ### encryptIT.py
 Key variable must be created using cryptography - https://github.com/pyca/cryptography - the docs are really straight forward.
 
-Encrypted variable must be set to the location where you will store your CSV file ( this stores encrypted employee da
+'encrypted' variable must be set to the encrypted string version of your service accounts password, see above docs.
 ### decryptIT.py
   'Key' variable must match the one created for encryptIT.py
-  
   
   Path must be changed to where you wish the decrypted file to be placed. ( Line 19 )
 
